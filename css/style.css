@@ -1,0 +1,96 @@
+body{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color:#fff;
+	font-size: 14px;
+	background-color: #000;	
+
+}
+header{
+	padding: 20px 0;
+}
+
+#hero{
+	background-image: url(../img/slider-3.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 200px;
+}
+
+#hero h1{
+	font-size: 80px;
+	font-weight: 600;
+	
+}
+#hero p{
+	font-size: 20px;
+}
+
+.btn-rectangulo{
+	background-color: transparent;
+	border:1px solid #fff;
+	color: #fff;
+	border-radius: 0;
+	padding: 10px 30px;
+	text-transform: lowercase;
+	font-weight: 600;
+}
+.btn-rectangulo:hover{
+	background-color: #fff;
+	color: #000;
+}
+#services{
+	padding: 120px 0; 
+}
+#services h2{
+	font-weight: 600;
+}
+#services img{
+	margin-bottom: 20px;
+}
+#services h3{
+	padding: 5px 0;
+	font-size: 25px;
+}
+#services p{
+	margin-bottom: 70px;
+}
+#primera-seccion {
+	/*background-color: #0D334F;*/
+	background-image: url(../img/pattern.jpg);
+	background-repeat:no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #FFFFFF;
+	text-align: center;
+	height: 100px;
+	/*padding: 100px 0;*/
+	padding: 200px 0;
+}
+#scroll{
+	padding: 100px 0;
+}
+#scroll .info-scroll{
+	text-align: center;
+	margin-bottom: 50px;
+		
+}
+#scroll .info-scroll h4{
+	margin-top: 25px;
+	font-size: 22px;
+	font-weight: 600;
+}
+#scroll .info-scroll h3{
+	font-size: 20px;
+	
+}
+#scroll .info-scroll p{
+	margin-top: 5px;
+	font-size: 15px;
+	font-weight: 400;
+}
+#client {
+	padding: 100px;
+	background-color: #111111;
+}
+
