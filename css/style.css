@@ -93,4 +93,55 @@ header{
 	padding: 100px;
 	background-color: #111111;
 }
+.foto{
+	position: relative;
+}
+.overlay{
+	position: absolute;
+	top: 40%; 
+	left: 0;
+	width: 90%;
+	padding: 30px 40px;
+	background-color: rgba(0,0,0,0.70);
+	opacity: 0;
+}
+.foto:hover .overlay{
+	opacity: 1;
+	transition: all 0.3s ease-in-out;
 
+}
+.bg-over-blue{
+	background-color: rgba(1,16,71,0.80);
+}
+#logo-forms .overlay{
+	top:0;
+	height: 100%;
+	width: 100%; 
+	opacity: 0;
+	z-index: 1;
+}
+#logo-forms .info-foto{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: rgba(0,15,31,1.00);
+	left: 0;
+	text-align: center;
+	z-index: 2;
+}
+#logo-forms .foto:hover .overlay{
+	opacity: 1;
+	transition: all 0.3s ease-in-out;
+}
+#page-header{
+	background-color:  #0c0c0c;
+	color: #fff;
+	padding: 50px 0;
+}
+
+#page-header{
+	font-size: 26px;
+}
+#content{
+	padding: 45px 0;
+}
